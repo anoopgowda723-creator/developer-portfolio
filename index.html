@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Anoop BP | Software Engineer</title>
+
+    <meta name="description"
+        content="Portfolio of Anoop BP - MCA Graduate | Software Engineer | Python Developer | Full Stack Developer">
+
+    <link rel="stylesheet" href="style.css">
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@400;500;600;700&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+
+<body>
+
+    <!-- ================= NAVIGATION ================= -->
+
+    <header class="header" id="header">
+
+        <a href="#home" class="logo">anoop_bp<span class="blink">_</span></a>
+
+        <nav>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">/home</a></li>
+                <li><a href="#about">/about</a></li>
+                <li><a href="#skills">/skills</a></li>
+                <li><a href="#projects">/projects</a></li>
+                <li><a href="#education">/education</a></li>
+                <li><a href="#contact">/contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation menu" aria-expanded="false">
+            <span></span><span></span><span></span>
+        </button>
+
+    </header>
+
+
+    <!-- ================= HERO ================= -->
+
+    <section id="home" class="hero">
+
+        <div class="hero-text">
+
+            <div class="eyebrow">
+                <span class="dot dot-ok"></span>
+                <span class="eyebrow-route">GET /anoop-bp</span>
+                <span class="eyebrow-status">200 OK</span>
+            </div>
+
+            <h1>Anoop B P</h1>
+
+            <h2 class="role">Software Engineer <span class="slash">/</span> Python &amp; Backend Systems<span class="type-cursor">|</span></h2>
+
+            <p class="lede">
+                MCA graduate who builds scalable web applications, backend
+                systems and AI-powered solutions with Python, Django and Flask.
+            </p>
+
+            <div class="hero-buttons">
+                <a href="#projects" class="btn btn-primary">View Projects</a>
+                <a href="./assets/resume/resume.pdf" class="btn btn-outline" download="Anoop_Resume.pdf">
+                    <i class="fa-solid fa-arrow-down"></i> Resume
+                </a>
+            </div>
+
+        </div>
+
+        <div class="hero-media">
+            <div class="window-card">
+                <div class="window-titlebar">
+                    <span class="filename"><i class="fa-regular fa-image"></i> profile.jpg</span>
+                    <span class="online"><span class="dot dot-ok"></span>online</span>
+                </div>
+                <div class="window-body">
+                    <img src="assets/images/profile.jpeg" alt="Anoop BP">
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section id="about">
+
+        <div class="route-label">GET /about</div>
+        <h2 class="section-title section-title-left">About</h2>
+
+        <div class="about-grid">
+
+            <div class="about-copy">
+                <p>
+                    I'm an MCA graduate with a strong interest in software
+                    engineering, backend development and artificial
+                    intelligence. I enjoy solving real-world problems using
+                    Python, Django, Flask and PostgreSQL.
+                </p>
+                <p>
+                    My goal is to build scalable applications and keep
+                    sharpening my technical skills, one system at a time.
+                </p>
+            </div>
+
+            <div class="focus-card reveal">
+                <div class="focus-card-title">focus_areas.json</div>
+                <ul class="focus-list">
+                    <li>Backend Development</li>
+                    <li>REST APIs</li>
+                    <li>AI / ML Integration</li>
+                    <li>Database Design</li>
+                </ul>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= SKILLS ================= -->
+
+    <section id="skills">
+
+        <div class="route-label">GET /skills</div>
+        <h2 class="section-title">Skills</h2>
+
+        <div class="skills-grid">
+
+            <div class="skill-group reveal">
+                <div class="skill-cat">Languages</div>
+                <div class="chips">
+                    <span>Python</span><span>Java</span><span>JavaScript</span>
+                </div>
+            </div>
+
+            <div class="skill-group reveal">
+                <div class="skill-cat">Web</div>
+                <div class="chips">
+                    <span>HTML</span><span>CSS</span>
+                </div>
+            </div>
+
+            <div class="skill-group reveal">
+                <div class="skill-cat">Frameworks</div>
+                <div class="chips">
+                    <span>Django</span><span>Flask</span><span>FastAPI</span>
+                </div>
+            </div>
+
+            <div class="skill-group reveal">
+                <div class="skill-cat">Databases</div>
+                <div class="chips">
+                    <span>PostgreSQL</span><span>MySQL</span>
+                </div>
+            </div>
+
+            <div class="skill-group reveal">
+                <div class="skill-cat">Tools</div>
+                <div class="chips">
+                    <span>Git</span><span>GitHub</span><span>VS Code</span><span>PyCharm</span><span>Docker</span>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section id="projects">
+
+        <div class="route-label">GET /projects</div>
+        <h2 class="section-title">Projects</h2>
+
+        <div class="project-grid">
+
+            <!-- Project 1 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="assets/images/anomaly.png" alt="AI Anomaly Detection">
+                </div>
+                <div class="project-body">
+                    <div class="project-status"><span class="dot dot-ok"></span>completed</div>
+                    <h3>AI Anomaly Detection &amp; Early Warning System</h3>
+                    <p>
+                        AI-powered industrial monitoring system using
+                        Isolation Forest, Django REST Framework, PostgreSQL
+                        and Chart.js.
+                    </p>
+                    <div class="tags">
+                        <span>Python</span><span>Django REST</span><span>PostgreSQL</span><span>Chart.js</span>
+                    </div>
+                    <a href="#" class="project-link">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Project 2 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="assets/images/farmers.png" alt="Farmers2Market">
+                </div>
+                <div class="project-body">
+                    <div class="project-status"><span class="dot dot-ok"></span>completed</div>
+                    <h3>Farmers2Market</h3>
+                    <p>
+                        Blockchain-enabled agricultural marketplace
+                        connecting farmers and buyers with secure
+                        transactions.
+                    </p>
+                    <div class="tags">
+                        <span>Blockchain</span><span>Ethereum</span><span>Web3</span>
+                    </div>
+                    <a href="#" class="project-link">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+            <!-- Project 3 -->
+            <article class="project-card reveal">
+                <div class="project-image">
+                    <img src="assets/images/college.png" alt="College Complaint Portal">
+                </div>
+                <div class="project-body">
+                    <div class="project-status"><span class="dot dot-ok"></span>completed</div>
+                    <h3>College Complaint Portal</h3>
+                    <p>
+                        Java-based complaint management system developed
+                        using JSP, Servlets and MySQL.
+                    </p>
+                    <div class="tags">
+                        <span>Java</span><span>JSP</span><span>Servlets</span><span>MySQL</span>
+                    </div>
+                    <a href="#" class="project-link">View on GitHub <i class="fa-solid fa-arrow-right"></i></a>
+                </div>
+            </article>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= EDUCATION ================= -->
+
+    <section id="education">
+
+        <div class="route-label">GET /education</div>
+        <h2 class="section-title">Education</h2>
+
+        <div class="timeline">
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Master of Computer Applications (MCA)</h3>
+                    <p>Presidency University, Bengaluru</p>
+                </div>
+            </div>
+
+            <div class="timeline-item reveal">
+                <div class="timeline-marker"></div>
+                <div class="timeline-content">
+                    <h3>Bachelor of Computer Applications (BCA)</h3>
+                    <p>St. Philomena College, Puttur</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section id="contact">
+
+        <div class="route-label">POST /contact</div>
+        <h2 class="section-title">Contact</h2>
+
+        <div class="contact-card reveal">
+
+            <a class="contact-row" href="mailto:anoopgowda723@gmail.com">
+                <i class="fa-solid fa-envelope"></i>
+                <span class="flag">--email</span>
+                <span class="val">anoopgowda723@gmail.com</span>
+            </a>
+
+            <a class="contact-row" href="tel:+916362158481">
+                <i class="fa-solid fa-phone"></i>
+                <span class="flag">--phone</span>
+                <span class="val">+91 6362158481</span>
+            </a>
+
+            <a class="contact-row" href="https://www.linkedin.com/in/anoopgowda" target="_blank" rel="noopener">
+                <i class="fa-brands fa-linkedin"></i>
+                <span class="flag">--linkedin</span>
+                <span class="val">linkedin.com/in/anoopgowda</span>
+            </a>
+
+            <a class="contact-row" href="https://github.com/anoopgowda723-creator" target="_blank" rel="noopener">
+                <i class="fa-brands fa-github"></i>
+                <span class="flag">--github</span>
+                <span class="val">github.com/anoopgowda723-creator</span>
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer>
+        <p>// &copy; <span id="year">2026</span> Anoop BP — All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
